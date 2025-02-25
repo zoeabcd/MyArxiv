@@ -1,31 +1,31 @@
 site_title = "MyArxiv"
 limit_days = 7
-cache_url = "https://mlnlp-world.github.io/MyArxiv/cache.json"
+cache_url = "https://zoeabcd.github.io/MyArxiv/cache.json"
 
 [[sources]]
 limit = 150
-category = "cs.CL"
-title = "Computation and Language"
+category = "cs.CC"
+title = "Computational Complexity"
 
 [[sources]]
 limit = 150
-category = "cs.CV"
-title = "Computer Vision and Pattern Recognition"
+category = "cs.CR"
+title = "Cryptography and Security"
 
 [[sources]]
 limit = 150
-category = "cs.IR"
-title = "Information Retrieval"
+category = "cs.DM"
+title = "Discrete Mathematics"
 
 [[sources]]
 limit = 150
-category = "cs.LG"
-title = "Machine Learning"
+category = "cs.CC"
+title = "Computational Complexity"
 
-[[sources]]
-limit = 150
-category = "cs.MM"
-title = "Multimedia"
+# [[sources]]
+# limit = 150
+# category = "cs.MM"
+# title = "Multimedia"
 
 [scripts]
 highlight_title = "scripts/highlight_title.rhai"
